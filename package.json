@@ -1,0 +1,43 @@
+{
+  "name": "winston-primus",
+  "version": "1.0.0",
+  "description": "A generic websocket transport for winston based on primus",
+  "private": false,
+  "preferGlobal": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "dependencies" : {
+     "primus": "2.x"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "winston": "0.7.x",
+    "vows": ">=0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgesmundo/winston-primus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mgesmundo/winston-primus/issues"
+  },
+  "keywords": [
+     "winston",
+     "primus",
+     "logging",
+     "sysadmin",
+     "tools",
+     "log",
+     "socket",
+     "websocket",
+     "socket.io",
+     "sockjs"
+  ],
+  "author": "Marcello Gesmundo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
